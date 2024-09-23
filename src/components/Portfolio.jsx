@@ -1,4 +1,4 @@
-import './Portfolio.css';
+
 
 function Portfolio() {
     const projects = [
