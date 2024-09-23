@@ -1,7 +1,9 @@
+import './Portfolio.css';
+
 function Portfolio() {
     const projects = [
-      { title: 'Winter Lookbook 2018', img: '/path/to/img1.jpg', link: '#' },
-      { title: 'Visual Journey', img: '/path/to/img2.jpg', link: '#' },
+      { title: 'My Projects', img:  'https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=1200', link: '#' },
+      { title: 'My Goals ', img: 'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1200', link: '#' },
       { title: 'Journal', img: '/path/to/img3.jpg', link: '#' },
       { title: 'Shop', img: '/path/to/img4.jpg', link: '#' }
     ];

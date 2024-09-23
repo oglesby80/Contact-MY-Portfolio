@@ -96,4 +96,69 @@ footer a:hover {
   color: #f5f5f5;
 }
 
+/* Styling the Portfolio Section */
+.portfolio {
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+/* Styling the heading */
+.portfolio h2 {
+  font-size: 2rem;
+  color: #00bfff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Portfolio grid layout */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+/* Styling each project card */
+.project-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Styling the images */
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Styling the project title */
+.project-card h3 {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Styling the View Project link */
+.project-card a {
+  color: #00bfff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
 
